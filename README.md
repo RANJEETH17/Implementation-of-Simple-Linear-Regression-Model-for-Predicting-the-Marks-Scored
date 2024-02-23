@@ -21,6 +21,7 @@ Program to implement the simple linear regression model for predicting the marks
 Developed by: Ranjeeth B K
 RegisterNumber:21222040132
 */
+```
 import pandas as pd
 df=pd.read_csv('/content/Untitled spreadsheet - Sheet1.csv')
 df
@@ -47,7 +48,7 @@ plt.scatter(df['X'],df['Y'])
 plt.xlabel('X')
 plt.xlabel('Y')
 plt.plot(X_train,lr.predict(X_train),color='red')
-
+```
 
 ## Output:
 ![image](https://github.com/RANJEETH17/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/120718823/7afa5a55-885c-4378-9538-ff4243da52ef)
