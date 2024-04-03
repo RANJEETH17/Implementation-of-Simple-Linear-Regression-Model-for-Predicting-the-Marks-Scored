@@ -21,7 +21,8 @@ Program to implement the simple linear regression model for predicting the marks
 Developed by: Ranjeeth B K
 RegisterNumber:21222040132
 */
-```
+
+```python
 import pandas as pd
 df=pd.read_csv('/content/Untitled spreadsheet - Sheet1.csv')
 df
@@ -51,9 +52,16 @@ plt.plot(X_train,lr.predict(X_train),color='red')
 ```
 
 ## Output:
-![image](https://github.com/RANJEETH17/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/120718823/7afa5a55-885c-4378-9538-ff4243da52ef)
 
-
-
+# 1)HEAD:
+![image](https://github.com/RANJEETH17/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/120718823/1af3f0ff-b9cb-46b6-a748-b48bb02b6e93)
+# 2)GRAPH OF PLOTTED DATA:
+![image](https://github.com/RANJEETH17/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/120718823/5aff7234-94c1-4cc4-bb96-e1dbe25e3498)
+# 3)TRAINED DATA:
+![image](https://github.com/RANJEETH17/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/120718823/8b82f303-1b9b-4936-bc19-5e2393b84e4d)
+# 4)LINE OF REGRESSION:
+![image](https://github.com/RANJEETH17/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/120718823/7e66ac5c-e6ea-48be-a917-76bdf617ad9e)
+# 5)COEFFICIENT AND INTERCEPT VALUES:
+![image](https://github.com/RANJEETH17/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/120718823/3027e5ed-fde3-443a-ac61-e263adda29b3)
 ## Result:
 Thus the program to implement the simple linear regression model for predicting the marks scored is written and verified using python programming.
